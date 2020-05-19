@@ -1,0 +1,454 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------------*/
+.wrapper {
+}
+.background {
+	&__header {
+		background: linear-gradient(#7ABABA,#77B7B7,#79B9B9,#7BBBBB);
+		width: 2807px;
+		margin: 0 auto;
+	}
+	&__about {
+		background: linear-gradient(#E1DCCC,#DFDACA,#E2DDCD,#E0DBCB);
+		width: 2807px;
+		margin: 0 auto;
+	}
+	&__portfolio {
+		background: linear-gradient(#E28968,#E38B69,#E18867,#E08866);
+		width: 2807px;
+		margin: 0 auto;
+	}
+	&__blog {
+		background: linear-gradient(#DEDBD8,#E0DDDB,#DDDAD8,#DFDCD9);
+		width: 2807px;
+		margin: 0 auto;
+	}
+	&__contact {
+		background: linear-gradient(#4D5158,#4B4F55,#4E5258,#4F535A);
+		width: 2807px;
+		margin: 0 auto;
+	}
+}
+.header {
+	&__row {}
+	&__menu {
+		padding: 12px 0;
+	}
+	&__image {
+		text-align: center;
+	}
+	&__camera {}
+}
+.container {
+	width: 1927px;
+	margin: 0 auto;
+}
+.menu {
+	&__row {
+		display: flex;
+		height: 310px;
+		width: 100%;
+		justify-content: space-around;
+		align-items: center;
+	}
+	&__about {
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+		color: #f9ebd9;
+		font-size: 54px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	&__portfolio {
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+		color: #f9ebd9;
+		font-size: 54px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	&__image {}
+	&__blog {
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+		color: #f9ebd9;
+		font-size: 54px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	&__contact {
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+		color: #f9ebd9;
+		font-size: 54px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+}
+.image {
+	&__row {}
+	&__retro {}
+	&__retro-p {
+		padding: 66px 0px 100px 0px;
+	}
+}
+.camera {
+	&__row {}
+	&__image {}
+	&__text {
+		color: #f7ebd8;
+		font-size: 64px;
+		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 62px 0px 107px 0;
+	}
+}
+.about {
+	&__row {}
+	&__top {}
+	&__list {}
+}
+.about-top {
+	&__row {
+		text-align: center;
+		padding: 100px 0px 0px 0px;
+	}
+	&__image {}
+	&__text {
+		padding: 0px 0px 85px 0px;
+		color: #38353e;
+		font-size: 32px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+}
+.about-top-p {
+	&__image {
+		padding: 22px 0px 23px 0px;
+	}
+}
+.about-list {
+	&__row {
+		display: flex;
+		text-align: center;
+		padding: 0px 0px 145px 0px;
+	}
+	&__column {
+		flex: 0 0 25%;
+	}
+	&__image {}
+	&__title {
+		color: #383a3c;
+		font-size: 54px;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding: 50px 0px 37px;
+	}
+	&__p {
+		color: #383a3c;
+		font-size: 28px;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding: 0px 0px 33px 0px;
+	}
+	&__string {}
+	&__text {
+		height: 478px;
+		color: #383a3c;
+		font-size: 28px;
+		font-weight: 400;
+		line-height: 50px;
+		padding: 0px 21.5px;
+	}
+}
+.portfolio {
+	&__row {}
+	&__list {}
+	&__buttom {}
+}
+.portfolio-top {
+	&__row {
+		text-align: center;
+		padding: 101px 0px 0px 0px;
+	}
+	&__image {}
+	&__text {
+		padding: 0px 0px 85px 0px;
+		color: #38353e;
+		font-size: 32px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+}
+.portfolio-top-p {
+	&__image {
+		padding: 22px 0px 23px 0px;
+	}
+}
+.portfolio-list {
+	&__menu {
+		display: flex;
+		align-items: center;
+		height: 120px;
+		margin: 0px 0px 0px 20px;
+		& p {
+			color: #383a3c;
+			font-size: 32px;
+			font-weight: 400;
+		}
+		& ul {
+			display: flex;
+			// list-style: square;
+		}
+		& li {
+			color: #383a3c;
+			font-size: 24px;
+			font-weight: 700;
+			padding: 15px 17px 18px 47px;
+			margin: 0px 0px 0px 20px;
+			background-color: #fff;
+			border-radius: 50% 5px 5px 50%; 
+		}
+	}
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__column {
+		flex: 1 1 22.9%;
+		text-align: center;
+		margin: 0px 20px 40px 20px;
+	}
+}
+.column {
+	&__background {
+		position: relative;
+		border-radius: 5px;
+		width: 440px;
+		height: 442px;
+		box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+		background-color: #fbfaf6;
+	}
+	&__silver {
+		position: absolute;
+		width: 424px;
+		height: 318px;
+		background-color: #e3dfd7;
+		margin: 8px 0px 0px 8px;
+		z-index: 1;
+	}
+	&__cirlce {
+		position: absolute;
+		border-radius: 50%;
+		width: 88px;
+		height: 88px;
+		background-color: #fbfaf6;
+		z-index: 2;
+		bottom: 55px;
+		left: 176px;
+	}
+	&__image {
+		position: absolute;
+		z-index: 3;
+		bottom: 75px;
+		left: 196px;
+	}
+	&__text {
+		position: absolute;
+		z-index: 4;
+		bottom: 33px;
+		left: 60px;
+		color: #383a3c;
+		font-size: 24px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+.portfolio-buttom {
+	&__row {
+		text-align: center;
+	}
+	&__image {}
+	&__text {
+		color: #38353e;
+		font-size: 28px;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 16px 0px 113px 0px;
+	}
+}
+.blog {
+	&__row {}
+}
+.blog-top {
+	&__row {
+		padding: 103px 0px 0px 0px;
+		text-align: center;
+	}
+	&__image {}
+	&__text {
+		padding: 0px 0px 85px 0px;
+		color: #38353e;
+		font-size: 32px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+}
+.blog-top-p {
+	&__image {
+		padding: 22px 0px 23px 0px;
+	}
+}
+.blog-main {
+	&__column {}
+	&__row {
+		display: flex;
+		padding: 0px 0px 64px 0px;
+	}
+	&__image {}
+	&__title {
+		color: #383a3c;
+		font-size: 48px;
+		font-weight: 700;
+		padding: 18px 0px 13px 0px;
+	}
+	&__string {
+		padding: 23px 0px 34px 0px;
+	}
+}
+.blog-main-row {
+	&__column {
+		padding: 0px 20.5px 0px 20px;
+	}
+}
+.blog-main-h6 {
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__column {
+		color: #383a3c;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+.blog-main-text {
+		color: #383a3c;
+		font-family: "Roboto Slab";
+		font-size: 32px;
+		font-weight: 400;
+		line-height: 57px;
+}
+.blog-buttom {
+	&__row {
+		padding: 28px 0px 113px 0px;
+		text-align: center;
+	}
+	&__image {}
+	&__text {
+		color: #38353e;
+		font-size: 28px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+.contact {
+	&__row {}
+}
+.contact-top {
+	&__row {
+		padding: 102px 0px 0px 0px;
+		text-align: center;
+	}
+	&__image {}
+	&__text {
+		padding: 0px 0px 85px 0px;
+		color: #f6edd8;
+		font-size: 32px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+}
+.contact-top-p {
+	&__image {
+		padding: 22px 0px 23px 0px;
+	}
+}
+.contact-box {
+	&__row {
+		width: 961px;
+		height: 704px;
+		margin: 0 auto;
+		& div{
+			width: 100%;
+			height: 74px;
+			padding: 0px 0px 20px 0px;
+			& input {
+				width: 100%;
+				height: 100%;
+				border-radius: 5px;
+				color: #a9a9a9;
+				font-size: 32px;
+				font-weight: 400;
+				padding: 0px 16px;
+			}
+			& textarea {
+				width: 100%;
+				height: 326px;
+				border-radius: 5px;
+				color: #a9a9a9;
+				font-size: 32px;
+				font-weight: 400;
+				padding: 26px 16px;
+			}
+			& button {
+				padding: 23px 34px 17px 34px;
+				border-radius: 5px;
+				color: #383a3c;
+				font-size: 32px;
+				font-weight: 700;
+				margin-top: 275px;
+				background-color: #fff;
+			}
+		}
+	}
+	&__footer {
+		text-align: center;
+	}
+}
+.footer {
+	&__row {}
+	&__avatar {}
+}
+.footer-row {
+	&__text {
+		color: #f6edd8;
+		font-size: 48px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	&__image {
+		padding: 19px 0px 33px 0px;
+	}
+}
+.avatar {
+	&__row{
+		display: flex;
+		width: 960px;
+		margin: 0 auto;
+		justify-content: space-around;
+		padding: 0px 0px 133px 0px;
+	}
+	&__image {}
+}
